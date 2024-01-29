@@ -1,0 +1,91 @@
+.container {
+    background-color: rgb(238, 236, 236);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.preview-border {
+    display: flex;
+    background-color: white;
+    width: 400px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.preview-info,
+.preview-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.Image-logo {
+    max-width: 100%;
+}
+
+.product-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-subtitle {
+    margin-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    color: gray;
+}
+
+.product-des {
+    font-size: 15px;
+    color: gray;
+}
+
+.product-capacity {
+    margin-top: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: rgb(165, 164, 164);
+}
+
+.product-gap {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: rgb(165, 164, 164);
+}
+
+.product-button {
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    color: orangered;
+    width: 100%;
+    border: 2px solid orangered;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.product-button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.product-button:active {
+    background-color: #fe6b46;;
+}
